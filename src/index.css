@@ -57,3 +57,8 @@
 		@apply bg-background text-foreground;
 	}
 }
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+	transition: background-color 600000s 0s;
+}
