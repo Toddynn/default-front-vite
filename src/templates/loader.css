@@ -1,0 +1,66 @@
+.loader {
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background-color: #22c55e;
+	animation: 1.5s pulse infinite ease-in-out;
+}
+
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 #22c55e;
+	}
+
+	100% {
+		box-shadow: 0 0 0 14px #69ffa800;
+	}
+}
+
+.scanner span {
+	color: transparent;
+	font-size: 1.4rem;
+	position: relative;
+	overflow: hidden;
+}
+
+.scanner span::before {
+	content: 'Carregando...';
+	position: absolute;
+	top: 48px;
+	left: 0;
+	width: 0;
+	height: 100%;
+	border-right: 4px solid #313232;
+	overflow: hidden;
+	color: #3b3c3c;
+	animation: load91371 4s linear infinite;
+}
+
+@keyframes load91371 {
+	0%,
+	10%,
+	100% {
+		width: 0;
+	}
+
+	20%,
+	40%,
+	60%,
+	80%,
+	100% {
+		border-right-color: transparent;
+	}
+
+	11%,
+	31%,
+	51%,
+	71%,
+	91% {
+		border-right-color: rgb(87, 88, 88);
+	}
+
+	60%,
+	80% {
+		width: 105%;
+	}
+}
