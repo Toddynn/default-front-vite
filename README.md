@@ -1,4 +1,4 @@
-# Meu Projeto Vite
+# Vite front-end padrão
 
 Este é um projeto padrão criado com Vite que utiliza Tailwind CSS, Framer Motion, Shadcn, NextUI e TanStack Query para construir uma aplicação web moderna e eficiente.
 
@@ -18,4 +18,7 @@ Este é um projeto padrão criado com Vite que utiliza Tailwind CSS, Framer Moti
 
 2. Só instalar e rodar o projeto, atualize as preferências de tema do shadcn no index.css.
 
-Esse projeto padrão já inclui algumas funcionalidades como um connection provider e hook, que identifica se o cliente está conectado à internet ou não. Livre para explorar e trazer melhorias para agilizar ainda mais o desenvolvimento de softwares.
+Esse projeto padrão já inclui algumas funcionalidades como um connection provider e hook, que identifica se o cliente está conectado à internet ou não.
+Troca de temas já pronto. Entre outras coisas... Sinta-se Livre para explorar e trazer melhorias para agilizar ainda mais o desenvolvimento de softwares.
+
+```https://awesome-shadcn-ui.vercel.app/```
