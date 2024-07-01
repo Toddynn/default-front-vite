@@ -21,4 +21,4 @@ Este é um projeto padrão criado com Vite que utiliza Tailwind CSS, Framer Moti
 Esse projeto padrão já inclui algumas funcionalidades como um connection provider e hook, que identifica se o cliente está conectado à internet ou não.
 Troca de temas já pronto. Entre outras coisas... Sinta-se Livre para explorar e trazer melhorias para agilizar ainda mais o desenvolvimento de softwares.
 
-```https://awesome-shadcn-ui.vercel.app/```
+## **Explore**: https://awesome-shadcn-ui.vercel.app/
